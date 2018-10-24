@@ -62,162 +62,42 @@
       <div class="outer">
         <section id="main">
   
-    <article id="post-Calendar" class="article article-type-post" itemscope itemprop="blogPost">
+    <article id="post-My-First-Article" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
-    <a href="/2018/10/24/Calendar/" class="article-date">
-  <time datetime="2018-10-24T02:26:05.593Z" itemprop="datePublished">2018-10-24</time>
+    <a href="/2018/10/24/My-First-Article/" class="article-date">
+  <time datetime="2018-10-24T02:38:16.000Z" itemprop="datePublished">2018-10-24</time>
 </a>
     
   </div>
   <div class="article-inner">
     
     
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2018/10/24/My-First-Article/">My First Article</a>
+    </h1>
+  
+
+      </header>
+    
     <div class="article-entry" itemprop="articleBody">
       
-        <!DOCTYPE html>
-<html>
-	<head>
-		<title>月历显示</title>
-		<meta charset="utf-8">
-		<style type="text/css">
-			#input{
-				position: absolute;
-				left: 42%;
-				top: 10%;
-			}
-			#fullMonth{
-				position: absolute;
-				left: 34%;
-				top: 25%;
-			}
-		</style>
-		<script type="text/javascript">
-			function getMonthDays(){
-				var year = document.getElementById("year").value;
-				var month = document.getElementById("month").value;
-				if(year == "" || year == null || month == "" || month == null){
-					alert("请输入完整信息！");
-				}else if(month > 12 || month < 1){
-					alert("错误的月份！");
-				}else{
-					var monthDiv = document.getElementById("fullMonth");
-					var day_count = getMonthDayCount(month);
-					var date = new Date(year, month - 1, 1, 0, 0, 0, 0);
-					var weekday = date.getDay();
-					createTable(weekday, day_count);
-					}
-			}
-
-			function isLeapYear(year){
-				if((year % 4 == 0 && year % 100 != 0) || (year % 400 == 0)){
-					return true;
-				}else{
-					return false;
-				}
-			}
-
-			function getMonthDayCount(month){
-				var day_count;
-				if(month == 1 || month == 3 || month == 5 || month == 7 || month == 8 || month == 10 || month == 12){
-					day_count = 31;
-				}else if(month == 2){
-					if(isLeapYear(year)){
-						day_count = 29;
-					}else{
-						day_count = 28;
-					}
-				}else{
-					day_count = 30;
-				}
-				return day_count;
-			}
-
-			function createTable(weekday, day_count){
-				var table = document.getElementById("tb");
-				var rows = table.rows.length;
-				for(var i = 0; i < rows; i++){
-					table.deleteRow(i);
-					rows -= 1;
-					i -= 1;
-				}
-				createTableHead(table);
-				createTableData(table, weekday, day_count);
-			}
-
-			function createTableHead(table){
-				var tr_head = document.createElement("tr");
-				var td_sun = document.createElement("td");
-				var td_mon = document.createElement("td");
-				var td_tue = document.createElement("td");
-				var td_wed = document.createElement("td");
-				var td_thu = document.createElement("td");
-				var td_fri = document.createElement("td");
-				var td_sat = document.createElement("td");
-				tr_head.appendChild(td_sun);
-				tr_head.appendChild(td_mon);
-				tr_head.appendChild(td_tue);
-				tr_head.appendChild(td_wed);
-				tr_head.appendChild(td_thu);
-				tr_head.appendChild(td_fri);
-				tr_head.appendChild(td_sat);
-				td_sun.innerHTML = "星期日";
-				td_mon.innerHTML = "星期一";
-				td_tue.innerHTML = "星期二";
-				td_wed.innerHTML = "星期三";
-				td_thu.innerHTML = "星期四";
-				td_fri.innerHTML = "星期五";
-				td_sat.innerHTML = "星期六";
-				table.appendChild(tr_head);
-			}
-
-			function createTableData(table, weekday, day_count){
-				var tr_count = Math.ceil((weekday + day_count) / 7);
-				var tr_arr = new Array();
-				for(var i = 0; i < tr_count; i++){
-					var tr_tmp = document.createElement("tr");
-					tr_arr[i] = tr_tmp;
-					table.appendChild(tr_tmp);
-				}
-				var flag = 0;
-				var tr_index = 0;
-				for(var i = 0; i < weekday; i++){
-					tr_arr[tr_index].appendChild(document.createElement("td"));
-					flag++;
-				}
-				for(var i = 0; i < 7 * tr_count - weekday; i++){
-					if(flag % 7 == 0){
-						tr_index++;
-					}
-					var td_tmp = document.createElement("td");
-					if(i + 1 <= day_count){
-						td_tmp.innerHTML = i + 1;
-					}
-					tr_arr[tr_index].appendChild(td_tmp);
-					flag++;
-				}
-			}
-		</script>
-	</head>
-	<body>
-		<div id="input">
-			年份：<input type="text" id="year">
-			<br>
-			月份：<input type="text" id="month">
-			<br>
-			<button onclick="getMonthDays()">获取月历</button>
-		</div>
-		<div id="fullMonth">
-			<table id="tb" border="1" cellspacing="0" cellpadding="10">	
-			</table>
-		</div>
-	</body>
-</html>
+        <pre><code>This is my first article for JavaWeb experiment. I will show you 2 images below. One is using absolute position and the other is using relative position.
+Figure 1:
+![相对路径图片](My-First-Article/pyy1.jpg)
+Figure 2:
+![绝对路径图片](C:\Users\Wenqiang Luo\Documents\GitBlog\blog\source\_posts\My-First-Article\pyy2.jpg)
+</code></pre>
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2018/10/24/Calendar/" data-id="cjnmjfsno0000h4udr6hsdvwc" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2018/10/24/My-First-Article/" data-id="cjnmk622v0001mgudqzc7cpi8" class="article-share-link">Share</a>
       
       
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/hexo/">hexo</a></li></ul>
+
     </footer>
   </div>
   
@@ -260,7 +140,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2018/10/18/hello-world/" data-id="cjnmjfsnw0001h4udefepzhz5" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2018/10/18/hello-world/" data-id="cjnmk622x0002mgudvxht51pu" class="article-share-link">Share</a>
       
       
     </footer>
@@ -296,7 +176,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2018/10/17/My-New-Post/" data-id="cjnmjfsnz0002h4udbpp9jm5u" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2018/10/17/My-New-Post/" data-id="cjnmk622p0000mgudftfewqkg" class="article-share-link">Share</a>
       
       
     </footer>
@@ -316,9 +196,23 @@
 
   
     
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tags</h3>
+    <div class="widget">
+      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/hexo/">hexo</a></li></ul>
+    </div>
+  </div>
+
 
   
     
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tag Cloud</h3>
+    <div class="widget tagcloud">
+      <a href="/tags/hexo/" style="font-size: 10px;">hexo</a>
+    </div>
+  </div>
+
   
     
   <div class="widget-wrap">
@@ -337,7 +231,7 @@
       <ul>
         
           <li>
-            <a href="/2018/10/24/Calendar/">(no title)</a>
+            <a href="/2018/10/24/My-First-Article/">My First Article</a>
           </li>
         
           <li>
