@@ -10,7 +10,7 @@
 		
 
 <head>
-	<title>My First Article</title>
+	<title>category: start_cate</title>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="apple-mobile-web-app-title" content="Amaze UI" />
@@ -54,8 +54,8 @@
 		
 		
 			
-			<p class=page-name>当前文章&nbsp;:&nbsp;《My First Article》</p>
-			
+			<p class=page-name>分类</p>
+		
 		
 	
 	
@@ -149,160 +149,65 @@
 		<!-- content srart -->
 <div class="am-g am-g-fixed blog-fixed blog-content">
 	<div class="am-u-md-8 am-u-sm-12">
+		<div class="archive">
 
-		<article class="am-article blog-article-p">
-
-			<div class="am-article-hd">
+			<div class="blog-text-center">
 				
+					<i class="fa fa-book">start_cate</i>
+				
+			</div>  
 
+			
 
-				<h1 class="am-article-title blog-text-center">
-					
-					
-	
-		<a href="/2018/10/24/My-First-Article/" itemprop="url">		
-			My First Article		
-		</a>
-	
-
-				</h1>
-
-				<p class="am-article-meta blog-text-center">
-					<span>
-						<i class="fa fa-clock-o"></i> 
-						<a href="/2018/10/24/My-First-Article/" itemprop="url">
-	<time datetime="2018-10-24T02:38:16.323Z" itemprop="datePublished">
-  		2018-10-24
-  </time>
-</a>    
-&nbsp;
-					</span>
-					
-					<span>						
-						
-							<i class="fa fa-tags"></i>
 							
-								<a href="#start_tags" title="start_tags" rel="2">start_tags</a>&nbsp;
-													 											
-						
-					</span>
-				</p>
-			</div>
-
-			<div class="am-article-bd">
-				<div class="content" id="post-content">
+				
+				
+				
 					
-						<h3 id="This-is-my-first-article-for-JavaWeb-experiment-I-will-show-you-2-images-below-One-is-using-absolute-position-and-the-other-is-using-relative-position"><a href="#This-is-my-first-article-for-JavaWeb-experiment-I-will-show-you-2-images-below-One-is-using-absolute-position-and-the-other-is-using-relative-position" class="headerlink" title="This is my first article for JavaWeb experiment. I will show you 2 images below. One is using absolute position and the other is using relative position."></a>This is my first article for JavaWeb experiment. I will show you 2 images below. One is using absolute position and the other is using relative position.</h3><p>Figure 1:<br><img src="/2018/10/24/My-First-Article/pyy1.jpg" alt="Relative"><br>Figure 2:<br><img src="http://120.79.88.254:8080/ipserver/images/pyy2.jpg" alt="Absolute"></p>
 
 					
-				</div>
-			</div>
-		</article>
-
-		<ul class="am-pagination">
-    
-	
-		<li class="am-pagination-next">
-		<a class="pull-right" href="/2018/10/18/hello-world/" title="Hello World">
-			下一篇 &raquo;
-		</a>
-		</li>
-	 
- </ul>
-        
-
-		<div class="theme-annie-comment-button-container">
-	<button id="annie-comment-button" class="theme-annie-comment-button" onclick="Annie_Comment()">
-		加载评论
-		<!--加载评论-->
-	</button>
-</div>
-
-<div id="annie-comment-container" class="theme-annie-comment-main-container">
-
-	
-		
-			<!-- comment valine -->
-			<!-- show valine comment -->
-<div id="valineComment" class="comment"></div>
-
-<!-- valine`s js & css -->
-<script>
-	window.jQuery || document.write('<script src="/js/jquery-2.1.1.min.js"><\/script>')
-</script>
-<script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
-<script src="/js/valine.min.js"></script>
-<link rel="stylesheet" href="/css/comment.css">
-
-<script>
-	var checkExistComment = setInterval(function() {
-		if( $('#valineComment').length ) {
-			new Valine({
-				// AV 对象来自上面引入av-min.js(老司机们不要开车➳♡゛扎心了老铁)
-				av: AV,
-				//使用id寻找div元素（使用class可能找不到）
-				el: '#valineComment',
-				emoticon_url: 'https://cloud.panjunwen.com/alu',
-				emoticon_list: ["吐.png", "期待.png", "高兴.png", "吐血倒地.png", "哭泣.png", "欢呼.png"],
-				app_id: "3333....", //获取APP ID
-				app_key: "3333......", //获取APP KEY
-				placeholder: "no any!", //评论框占位提示文字        			
-			});
-			clearInterval(checkExistComment);
-		}
-	}, 100);
-</script>
-		
-	
-
-</div>
-
-<script type="text/javascript">
-	/* Show Comment */
-	var Annie_Comment = function() {
-		function Show_Hidden(obj) {
-			obj.style.display = 'block';
-		}
-		
-		//var obutton = $('#annie-comment-button');
-		//var obutton = $('#annie-comment-container');
-		var obutton = document.getElementById("annie-comment-button" || "0");
-		var odiv = document.getElementById("annie-comment-container");
-		if( 'obutton' ) {
-			obutton.onclick = function() {
-				Show_Hidden(odiv);
-				$("#annie-comment-button").css("display", 'none');
-				return false;
-			}
-		}
-	};
-
-	(function Annie_Init() {
-		Annie_Comment();
-	})();
-</script>
-		
-		<!--
-	时间：2018-09-24
-	描述：The TOC module refers to 'https://github.com/codefine/hexo-theme-mellow', include toc.ejs、toc.js、toc.css. All rights reserved by codefine. 
--->
-
-	
-		<aside class="post-widget">
-			<nav class="post-toc-wrap" id="post-toc">
+					<!--<a href="/archives/2018" class="archive-year">2018</a>-->
 				
-					<strong>文章目录</strong>
+								
+				
+					  
+					<div class="archive-year">
+						<a href="/archives/2018/10">
+							2018-10
+						</a>
+					</div>				
+				  
+				
+				<div class="archive-item">
+					<div class="archive-post-title">									
+						<a href="/2018/10/24/My-First-Article/" itemprop="url">My First Article</a>
+					</div>
+					<div class="archive-post-time">
+						<a href="/2018/10/24/My-First-Article/" itemprop="url">10-24</a>
+					</div>
+				</div>		        							
+							
 				
 				
-				<!--toc(post.content)-->
-				<ol class="post-toc"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#This-is-my-first-article-for-JavaWeb-experiment-I-will-show-you-2-images-below-One-is-using-absolute-position-and-the-other-is-using-relative-position"><span class="post-toc-text">This is my first article for JavaWeb experiment. I will show you 2 images below. One is using absolute position and the other is using relative position.</span></a></li></ol>
-			</nav>
-			<div class="post-toc-bar"><div>
-		</aside>
-	
-
+				
+								
+				  
+				
+				<div class="archive-item">
+					<div class="archive-post-title">									
+						<a href="/2018/10/18/hello-world/" itemprop="url">Hello World</a>
+					</div>
+					<div class="archive-post-time">
+						<a href="/2018/10/18/hello-world/" itemprop="url">10-18</a>
+					</div>
+				</div>		        							
+			
+				
+			    
+		</div>
 	</div>
 </div>
+
 		</div>
 		</main>
 		
@@ -375,18 +280,11 @@
 </style>
 
 
-	<script src="/js/motto.js"></script>
-	<script type="text/javascript">
-		$(".motto").html(getMingYanContent());
-	</script>	
 
 
 
 
 
-
-
-	<script type="text/javascript" src="/js/toc.js"></script>
 
 
 <script type="text/javascript" src="/js/main.js"></script>
