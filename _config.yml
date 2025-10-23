@@ -6,21 +6,22 @@ email: wenqialuo4-c@my.cityu.edu.hk
 
 # Search Engine Optimization (SEO)
 # The following information is used to improve the website traffic from search engines, e.g., Google.
-keywords: wenqiang luo program repair ai4se llm
+keywords: Wenqiang LUO, Program Repair, Researcher, AI4SE, LLM
 description: This the academic personal homepage of Wenqiang LUO.
 canonical: https://stringing.github.io/
 
 # Links 
 # If you don't need one of them, you may delete the corresponding line.
 google_scholar: https://scholar.google.com/citations?user=YhDmrNUAAAAJ&hl=en&oi=ao
-cv_link: assets/files/curriculum_vitae.pdf
+orcid: https://orcid.org/0009-0005-4171-2025
+# cv_link: assets/files/curriculum_vitae.pdf
 github_link: https://github.com/stringing
 linkedin: https://www.linkedin.com/in/wenqiang-luo-785016326/
 twitter: https://x.com/WenqiangLUOhey
 
 # Images (e.g., your profile picture and your website's favicon) 
 # "favicon" and "favicon_dark" are used for the light and dark modes, respectively. 
-avatar: ./assets/img/my_avatar.png
+avatar: ./assets/img/my_avatar.jpg
 favicon: ./assets/img/favicon.png
 favicon_dark: ./assets/img/favicon-dark.png
 
