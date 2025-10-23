@@ -1,0 +1,25 @@
+main:
+
+  - title: Unlocking LLM Repair Capabilities Through Cross-Language Translation and Multi-Agent Refinement
+    authors: <strong>Wenqiang Luo</strong>, Jacky Wai Keung, Boyang Yang, Jacques Klein, Tegawende F. Bissyande, Haoye Tian, Bach Le
+    conference_short: ICSE
+    conference: IEEE/ACM International Conference on Software Engineering <strong>(ICSE)</strong>, 2026.
+    pdf: https://arxiv.org/abs/2503.22512
+    code: https://github.com/stringing/LANTERN
+    image: ./assets/img/overview-lantern.png
+
+  - title: "When Fine-Tuning LLMs Meets Data Privacy: An Empirical Study of Federated Learning in LLM-Based Program Repair"
+    authors: <strong>Wenqiang Luo</strong>, Jacky Keung, Boyang Yang, He Ye, Claire Le Goues, Tegawende F. Bissyande, Haoye Tian, Bach Le
+    conference_short: TOSEM
+    conference: ACM Transactions on Software Engineering and Methodology <strong>(TOSEM)</strong>, 2025.
+    pdf: https://dl.acm.org/doi/pdf/10.1145/3733599
+    code: https://github.com/stringing/Federated-LLM-Based-APR
+    image: ./assets/img/bg-privacy.png
+
+  - title: "When Fine-Tuning LLMs Meets Data Privacy: An Empirical Study of Federated Learning in LLM-Based Program Repair"
+    authors: <strong>Wenqiang Luo</strong>, Jacky Keung, Boyang Yang, He Ye, Claire Le Goues, Tegawende F. Bissyande, Haoye Tian, Bach Le
+    conference_short: TOSEM
+    conference: ACM Transactions on Software Engineering and Methodology <strong>(TOSEM)</strong>, 2025.
+    pdf: https://dl.acm.org/doi/pdf/10.1145/3733599
+    code: https://github.com/stringing/Federated-LLM-Based-APR
+    image: ./assets/img/bg-privacy.png
