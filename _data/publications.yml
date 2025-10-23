@@ -7,7 +7,7 @@ main:
     pdf: https://arxiv.org/abs/2503.22512
     code: https://github.com/stringing/LANTERN
     bibtex: https://bib.yliu.me/MICCAI23.txt
-    image: ./assets/img/overview-lantern.pdf
+    image: ./assets/img/overview-lantern.png
 
   - title: "When Fine-Tuning LLMs Meets Data Privacy: An Empirical Study of Federated Learning in LLM-Based Program Repair"
     authors: <strong>Wenqiang Luo</strong>, Jacky Keung, Boyang Yang, He Ye, Claire Le Goues, Tegawende F. Bissyande, Haoye Tian, Bach Le
@@ -16,4 +16,4 @@ main:
     pdf: https://dl.acm.org/doi/pdf/10.1145/3733599
     code: https://github.com/stringing/Federated-LLM-Based-APR
     bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
-    image: ./assets/img/bg-privacy.pdf
+    image: ./assets/img/bg-privacy.png
