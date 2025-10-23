@@ -4,19 +4,18 @@ layout: homepage
 
 ## About Me
 
-I am a Ph.D. student at City University of Hong Kong (CityUHK)
+I am a Ph.D. student at City University of Hong Kong under the supervision of Prof. [Jacky Wai Keung](https://scholars.cityu.edu.hk/en/persons/jwkeung/) and Prof. [Haoye Tian](https://haoyetiancoder.github.io/). Previously, I obtained my master's degree at Southeast University.
 
 ## Research Interests
 
-- **Computer Vision:** image recognition, image generation, video captioning
-- **Machine Learning:** meta-learning, incremental learning, transfer learning
+- AI4SE
+- Program Repair
+- Agentic Software Engineering
 
 ## News
 
-- **[Feb. 2020]** Our paper about incremental learning is accepted to CVPR 2020.
-- **[Feb. 2020]** We will host the ACM Multimedia Asia 2020 conference in Singapore!
-- **[Sept. 2019]** Our paper about few-shot learning is accepted to NeurIPS 2019.
-- **[Mar. 2019]** Our paper about few-shot learning is accepted to CVPR 2019.
+- **[Oct. 2025]** One paper was accepted by ICSE'26.
+- **[May. 2025]** One paper was accepted by TOSEM!
 
 {% include_relative _includes/publications.md %}
 
